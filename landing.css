@@ -1,0 +1,86 @@
+body{
+    background-image: url("fnLZYO.webp");
+    background-size: cover;
+   background-repeat: no-repeat;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar ul{
+    list-style-type: none;
+     padding-top: 20px;
+    padding-left: 35rem;
+}
+.navbar ul li{
+    display: inline;
+}
+.navbar ul li a{
+    text-decoration: none;
+    padding: 20px;
+    font-size: 25px;
+    color:goldenrod ;
+    font-family: sans-serif;
+    position: relative;
+}
+.navbar ul li a:hover{
+    /* background-color:rgb(229, 122, 68); */
+    border-radius:20px ;
+    color:wheat ;
+    padding: 10px ;
+    border-bottom: 2px solid orange;
+    transition: 0.4s linear;
+    width: 90%;
+}
+.register a{
+    list-style-type: none;
+  text-decoration: none;
+color: white;
+padding: 10px 20px;
+font-size: 20px;
+background: orange;
+border-radius: 5px;
+transition: 0.4s linear;
+font-family: sans-serif;
+position:relative;
+}
+.register a:hover{
+background: transparent;
+color: darkkhaki;
+border: 3px solid grey;
+transition: 0.4s linear;
+}
+.h-txt{
+max-width: 650px;
+position: absolute;
+top: 50%;
+left: 20%;
+transform: translate(-50%,-50%);
+text-align: center;
+color: wheat;
+}
+.h-txt p{
+letter-spacing: 5px;
+font-size: 20px;
+}
+.h-txt h1{
+font-size: 3.5em;
+}
+.h-txt a{
+text-decoration: none;
+background:darkgoldenrod;
+color: white;
+padding: 15px,25px;
+letter-spacing: 5px;
+transition: 0.4s linear;
+}
+.h-txt a:hover{
+background: transparent;
+border: 3px solid black;
+color:black;
+font-size: 30px;
+}
+.logo{
+padding-left: 20px;
+padding-top: 10px;
+}
